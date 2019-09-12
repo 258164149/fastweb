@@ -1,0 +1,1 @@
+php E:\mywork\www\fastweb\base\demo\queue\simple\consumer.php

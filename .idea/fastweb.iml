@@ -1,20 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/larvel5_2/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/classpreloader/classpreloader" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/jeremeamia/SuperClosure" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/mtdowling/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/larvel5_2/vendor/webmozart/assert" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/laravel_55/Laravel/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
-          <root url="phar://$MODULE_DIR$/laravel_55/Laravel/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
-        </CLASSES>
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/laravel_55/Laravel/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
-          <root url="phar://$MODULE_DIR$/laravel_55/Laravel/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>

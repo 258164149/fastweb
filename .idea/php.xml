@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/composer" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/larvel5_2/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/larvel5_2/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

@@ -9,9 +9,12 @@
 
 class HttpUtils
 {
+    public  static  function test(){
+        echo 1;
+    }
     public  static  function curl_upload($url,$upload_file_path){
 
-        $url = "https://api6.xcx01.5067.org/get_img.php";
+      //  $url = "https://mytest.xcx01.5067.org/get_img.php";
         $post_data = array(
          //   "json" => "@E:/mywork/www/bdb/ftp.txt"
             "json" => "@".$upload_file_path//要上传的本地文件地址
@@ -19,14 +22,15 @@ class HttpUtils
         $ch = curl_init();
         curl_setopt($ch , CURLOPT_URL ,$url);
         curl_setopt($ch , CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
         curl_setopt($ch , CURLOPT_POST, 1);
         curl_setopt($ch , CURLOPT_POSTFIELDS, $post_data);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);//让其不验证ssl证书
         $output = curl_exec($ch);
     //4.错误判断
-        if ($output === FALSE){
+      /*  if ($output === FALSE){
             echo 'cURL Error:'.curl_error($ch);
-        }
+        }*/
        //5.返回cURL执行过程中相关信息(方便调试和查错)
         $info = curl_getinfo($ch);
         curl_close($ch);
