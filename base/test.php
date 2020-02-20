@@ -1,5 +1,6 @@
 <?php
- 
+
+
 header("Content-Type: text/html;charset=utf-8");
 echo $str= '你好,这里是卖咖啡!';
 echo '<br />';
