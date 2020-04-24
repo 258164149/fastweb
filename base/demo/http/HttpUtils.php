@@ -11,5 +11,7 @@ class HttpUtils
 {
    public  static  function test(){
        echo 1;
+       exit();
+
    }
 }

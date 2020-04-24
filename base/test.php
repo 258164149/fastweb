@@ -1,6 +1,11 @@
 <?php
 
+$str='\'testNUL';
+$str=addslashes($str);
 
+
+echo $str;
+exit();
 header("Content-Type: text/html;charset=utf-8");
 echo $str= '你好,这里是卖咖啡!';
 echo '<br />';
@@ -14,3 +19,15 @@ print_r(iconv_get_encoding());            //得到当前页面编码信息
 echo iconv_strlen($str, 'UTF-8');         //得到设定编码的字符串长度
 //也有这样用的
 $content = iconv("UTF-8","gbk//TRANSLIT",$content);
+
+
+
+
+
+
+
+
+
+
+
+
