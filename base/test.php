@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+exit();
+
 $str='\'testNUL';
 $str=addslashes($str);
 
